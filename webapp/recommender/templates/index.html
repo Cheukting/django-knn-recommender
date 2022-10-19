@@ -2,8 +2,8 @@
 {% load static %}
 <html>
   <head>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <link rel="stylesheet" href={% static 'pyscript/pyscript.css' %} />
+    <script defer src={% static 'pyscript/pyscript.js' %}></script>
 <py-config type="json">
     {
       "packages": ["scikit-learn", "{% static 'python-packages/fuzzywuzzy-0.18.0-py2.py3-none-any.whl' %}"],
