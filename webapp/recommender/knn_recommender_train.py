@@ -10,7 +10,7 @@ from scipy.sparse import csr_matrix
 # data imports
 from recommender.models import Movies, Ratings
 
-def prep_data(movie_rating_thres, user_rating_thre):
+def prep_data(movie_rating_thres, user_rating_thres):
     """
     prepare data for recommender
 

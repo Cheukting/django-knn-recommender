@@ -21,7 +21,7 @@ Using the [Django admin](https://docs.djangoproject.com/en/4.1/ref/django-admin/
 
 - python manage.py prep_data --path <path_to_static_folder>
 
-Train and produce the `hashmap.p`, `movie_user_mat_sparse.p` for deployment. Put in the path you want them to be stored. (/webapp/recommender/static/model/)
+Train and produce the `hashmap.p`, `movie_user_mat_sparse.p` for deployment. Put in the path you want them to be stored. (e.g. recommender/static/model/)
 
 ## Run the app
 

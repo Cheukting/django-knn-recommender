@@ -1,7 +1,7 @@
 import csv
 import pickle
 from django.core.management import BaseCommand
-from recommender.knn_recommender import KnnRecommender
+from recommender.knn_recommender_train import prep_data
 
 class Command(BaseCommand):
     help = 'Train the model and deploy to path'
